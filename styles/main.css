@@ -1,0 +1,55 @@
+/* styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: #f5f1ed;
+}
+
+body { /* type selector */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-color: #464646;
+	margin: 0 auto;
+	background-color: #e2e7c4;
+	width: 90%;
+	max-width: 1024px;
+	border: 3px solid #464646;
+
+
+}
+
+/* styles for the header */
+header { /* type selector */
+	border-bottom: 2px solid #464646;
+	text-align: center;
+}
+
+h1, h2, h3 { /* multiple selector */
+	color: #464646;
+}
+
+/* styles in the main section */
+
+main {
+	padding: .5em;
+	font-size: 125%;
+}
+
+main p {
+	padding: .5em;
+	font-weight: bold;
+}
+
+/* styles for the footer */
+footer {
+	clear: both;
+	text-align: center;
+}
+
+@media only screen and (max-width: 667px) {
+#sidebarA {
+	float: none;
+}
+}
